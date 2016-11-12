@@ -13,12 +13,14 @@ class ViewController: UIViewController {
     var time = 210
     
     @IBAction func pauseButton(_ sender: Any) {
-        timeLabel.text = "211"
-        print("Test!")
+//        timeLabel.text = "211"
+//        print("Test!")
+        timer.invalidate()
     }
 
     @IBAction func playButton(_ sender: Any) {
-        print("Test!")
+//        print("Test!")
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.timeTic), userInfo: nil, repeats: true)
     }
     
     @IBAction func decreaseButton(_ sender: Any) {
@@ -39,6 +41,7 @@ class ViewController: UIViewController {
         if time > 0 {
             time = time - 1
         }
+        print("Timertic!")
     }
     
     

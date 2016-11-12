@@ -24,15 +24,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func decreaseButton(_ sender: Any) {
-        print("Test!")
+        if time > 10 {
+            time = time - 10
+            timeLabel.text = String(time)
+        }
     }
     
     @IBAction func refreshButton(_ sender: Any) {
-        print("Test!")
+        time = 210
+        timeLabel.text = String(time)
     }
     
     @IBAction func increaseButton(_ sender: Any) {
-        print("Test!")
+        time = time + 10
+        timeLabel.text = String(time)
     }
     
     @IBOutlet weak var timeLabel: UILabel!
@@ -40,8 +45,11 @@ class ViewController: UIViewController {
     func timeTic() {
         if time > 0 {
             time = time - 1
+            timeLabel.text = String(time)
         }
-        print("Timertic!")
+        else {
+            timer.invalidate()
+        }
     }
     
     

@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					E43B08B61DD79E5500AEB725 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZR9QGW9V44;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZR9QGW9V44;
 				INFOPLIST_FILE = "Egg Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anttika.Egg-Timer";
@@ -270,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZR9QGW9V44;
 				INFOPLIST_FILE = "Egg Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anttika.Egg-Timer";

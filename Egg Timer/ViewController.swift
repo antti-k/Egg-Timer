@@ -9,24 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var timer = Timer()
+    var time = 210
     
     @IBAction func pauseButton(_ sender: Any) {
+        timeLabel.text = "211"
+        print("Test!")
     }
 
     @IBAction func playButton(_ sender: Any) {
+        print("Test!")
     }
     
     @IBAction func decreaseButton(_ sender: Any) {
+        print("Test!")
     }
     
     @IBAction func refreshButton(_ sender: Any) {
+        print("Test!")
     }
     
     @IBAction func increaseButton(_ sender: Any) {
+        print("Test!")
     }
     
     @IBOutlet weak var timeLabel: UILabel!
     
+    func timeTic() {
+        if time > 0 {
+            time = time - 1
+        }
+    }
     
     
     

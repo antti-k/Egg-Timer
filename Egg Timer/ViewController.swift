@@ -10,6 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBAction func pauseButton(_ sender: Any) {
+    }
+
+    @IBAction func playButton(_ sender: Any) {
+    }
+    
+    @IBAction func decreaseButton(_ sender: Any) {
+    }
+    
+    @IBAction func refreshButton(_ sender: Any) {
+    }
+    
+    @IBAction func increaseButton(_ sender: Any) {
+    }
+    
+    @IBOutlet weak var timeLabel: UILabel!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
